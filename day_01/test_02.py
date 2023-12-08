@@ -27,5 +27,8 @@ class TestCheckForSpelledDigits(unittest.TestCase):
     '''
     self.assertEqual(convert_spelled_digits('123fouronefouroneoneabreg2'), '12341411abreg2')
 
+  def test_empty_string(self):
+    self.assertEqual(convert_spelled_digits(''), '')
+
 if __name__ == '__main__':
   unittest.main()
