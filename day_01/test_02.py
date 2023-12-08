@@ -1,6 +1,7 @@
 import unittest
 from problem_01 import convert_spelled_digits
 
+
 class TestCheckForSpelledDigits(unittest.TestCase):
   def test_one_spelling(self):
     '''
@@ -24,7 +25,7 @@ class TestCheckForSpelledDigits(unittest.TestCase):
     '''
     test handling multiple instances of a spelled digit
     '''
-    self.assertEqual(convert_spelled_digits('oneoneone'), '111')
+    self.assertEqual(convert_spelled_digits('123fouronefouroneoneabreg2'), '12341411abreg2')
 
 if __name__ == '__main__':
   unittest.main()
