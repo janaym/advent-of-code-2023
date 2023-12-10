@@ -8,5 +8,6 @@ My Solutions to the 2023 advent of code daily challenges! Code written on a rota
 Current solved challenges: 4/50
 
 Day 1: Trebuchet ⭐️⭐️
+
 Day 2: Cube Conundrum ⭐️⭐️
 
